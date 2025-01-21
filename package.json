@@ -1,0 +1,24 @@
+{
+  "name": "azhar-html",
+  "version": "1.0.0",
+  "description": "Azhar project for portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass asset/sass/main.scss asset/css/style.css --watch",
+    "start": "lite-server",
+    "dev": "concurrently \"npm run sass\" \"npm start\"",
+    "build": "sass asset/sass/main.scss asset/css/style.css",
+    "test": "echo 'No tests yet.'"
+  },
+  "author": "Mudassir Aftab",
+  "license": "ISC",
+  "keywords": ["portfolio", "project"],
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.2",
+    "lite-server": "^2.6.1",
+    "sass": "^1.54.9"
+  }
+}

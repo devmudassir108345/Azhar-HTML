@@ -1,0 +1,53 @@
+Azhar-Project/
+|
+├── assets/               # Holds all project assets
+│   ├── images/           # Contains image files
+│   ├── css/              # Contains compiled CSS files
+│   ├── fonts/            # Contains font files
+│   ├── js/               # Contains JavaScript files
+│   │   ├── modules/      # Modular JavaScript files
+│   │   │   ├── api.js           # API interaction logic
+│   │   │   ├── formHandler.js   # Form-related functionality
+│   │   │   └── utils.js         # Utility functions
+│   │   └── main.js       # Entry point for JavaScript
+│   └── sass/             # Contains SCSS source files
+│       ├── abstract/     # Global settings and helpers
+│       │   ├── _icon-store.scss   # Icon definitions
+│       │   ├── _mixins.scss       # Reusable mixins
+│       │   ├── _variable.scss     # Global variables
+│       │   └── _function.scss     # SCSS utility functions
+│       │
+│       ├── bass/         # Base global styles
+│       │   ├── _bass.scss         # Core reset/base styles
+│       │   └── _typography.scss   # Typography styles
+│       │
+│       ├── components/   # Modular component styles
+│       │   ├── _blog.scss         # Blog component styles
+│       │   ├── _courses.scss      # Course section styles
+│       │   ├── _hero.scss         # Hero section styles
+│       │   ├── _services.scss     # Services section styles
+│       │   └── _about.scss        # About section styles
+│       │
+│       └── layout/       # Layout-specific styles
+│           ├── _breakpoint.scss   # Media queries
+│           ├── _footer.scss       # Footer styles
+│           ├── _header.scss       # Header styles
+│           └── main.scss          # Main SCSS file (imports all partials)
+|
+├── common/               # Common project utilities and files
+│   ├── constants.js      # Global constants
+│   ├── helpers.js        # General helper functions
+│   └── config.js         # Project configuration (e.g., API keys)
+|
+├── data/                 # Sample or mock data files
+│   └── example.json      # Example JSON data for testing
+|
+├── node_modules/         # Node.js dependencies
+|
+├── index.html            # Main HTML file for the project
+|
+├── package-lock.json     # Dependency lock file
+|
+├── package.json          # Project metadata and scripts
+|
+└── structure.log         # Log file for tracking structure or changes
